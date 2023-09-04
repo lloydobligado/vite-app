@@ -1,0 +1,41 @@
+# directories
+node_modules/
+dist/
+build/
+coverage/
+.pnpm-store/
+
+# next
+.next/
+out/
+
+# logs
+*.log
+*-debug.log*
+*-error.log*
+
+# miscellaneous
+.eslintcache
+.DS_Store
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vercel
+*.tsbuildinfo
+
+# secrets
+.env
+.env.*
+.env-*
+.npmrc
+
+# secret examples
+!**.example
+
+# locks
+*-lock.json
+*-lock.yaml
+*.lock
