@@ -6,7 +6,6 @@ import Navbar from './components/navbar/navbar';
 function App() {
   return (
     <>
-      <h1 className="text-red-800">Vite + React</h1>
       <Navbar />
       <Routes>
         {Object.entries(ROUTES).map(([_key, { path, content }]) => (
