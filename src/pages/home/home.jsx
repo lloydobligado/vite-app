@@ -1,7 +1,8 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return <motion.div animate={{x:100}}>HomePage</motion.div>;
 };
 
 export default HomePage;
